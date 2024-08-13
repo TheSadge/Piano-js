@@ -27,15 +27,17 @@ window.addEventListener("keydown", function (event) {
   audio.play();
 });
 
+// Add an event listener to each key to remove 'playing' class after transition ends
+allKeys.forEach((key) =>
+  key.addEventListener("transitionend", disableTransitionStyles)
+);
+
 // Function to remove the 'playing' class after transition ends
-function removeTransition(event) {
+function disableTransitionStyles(event) {
   event.target.classList.remove("playing");
 }
 
-// Add an event listener to each key to remove 'playing' class after transition ends
-allKeys.forEach((key) =>
-  key.addEventListener("transitionend", removeTransition)
-);
+
 
 //
 ////////////////////////////////////////////////////////////////////////////
