@@ -1,5 +1,8 @@
 # Web-Based Piano
 
+#This project is inspired by an idea that can be found widely across the internet. I simply recreated the concept and made some modifications to suit my own approach.
+
+این پروژه از ایده‌ای الهام گرفته شده که به‌طور گسترده‌ای در سراسر اینترنت یافت می‌شود. من تنها این کانسپت را دوباره پیاده‌سازی کرده و تغییراتی به دلخواه خود اعمال کردم.
 ## Overview
 
 This project is a web-based piano application built with HTML, CSS, and JavaScript. It allows users to play piano sounds using their keyboard keys. The piano keys are visually represented and mapped to specific key codes, and each key press produces a corresponding sound.
